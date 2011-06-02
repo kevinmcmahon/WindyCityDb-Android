@@ -1,0 +1,68 @@
+<?xml version="1.0"?>  
+<sponsors version="1"> 
+  <level name="Ruby">           
+    <sponsor> 
+    <name>Groupon</name> 
+    <url>http://groupon.com</url> 
+    <logo>http://windycitydb.org/assets/4bff05a9dabe9d1c61000005/groupon_large.png</logo> 
+    <description>Groupon, launched in November 2008 in Chicago, features a daily deal on the best stuff to do, eat, see, and buy in major cities across the U.S. and Canada, with plans to be in 100 cities by the end of 2010. Groupon uses collective buying power to offer unbeatable prices and provide a win-win for businesses and consumers. Groupon is a project of The Point, an online community launched in 2007 for organizing group action. Groupon builds their core product with Ruby on Rails, and aggressively uses state-of-the-art methods, tools and technology to continue to rapidly improve and evolve.
+</description> 
+    </sponsor> 
+  </level> 
+  
+  <level name="Gold"> 
+          
+    <sponsor> 
+    <name>10gen</name> 
+    <url>http://www.10gen.com/</url> 
+    <logo>http://windycitydb.org/assets/4bf75516dabe9d6b61000009/10gen_large.png</logo> 
+    <description>10gen sponsors the open source MongoDB project, and provides commercial support and training for MongoDB. Mongo (from “humongous”) is a high-performance, document-oriented database in use at SourceForge, foursquare, Etsy, the New York Times, and more.
+</description> 
+    </sponsor> 
+    
+  </level> 
+  
+  
+  
+  
+  
+  <level name="Community Partners"> 
+          
+    <sponsor> 
+    <name>Deforest Group</name> 
+    <url>http://deforestgroup.com/</url> 
+    <logo>http://windycitydb.org/assets/4bf75522dabe9d6b6100000d/deforest_large.png</logo> 
+    <description>Deforest Group is a unique combination of high energy creatives, service-focused sales staff, and business-savvy partners. We take pride in delivering award winning design and photography to clients in many diverse industries. Discover… Focus… Create… Our team uses its creative energy to discover client needs, focus on their goals, and create lasting impressions of their brands through creative design and photography. For more information visit DeforestGroup.com.
+</description> 
+    </sponsor> 
+    
+  </level> 
+  
+  
+  
+  <level name="Publishing Partners"> 
+          
+    <sponsor> 
+    <name>Sticker Mule</name> 
+    <url>http://www.stickermule.com/</url> 
+    <logo>http://windycitydb.org/assets/4d39c6fedabe9d0e4b00000d/stickermule_560.png</logo> 
+    <description>Sticker Mule is the easiest way to buy premium custom stickers and skins. Send us your artwork and we’ll do the rest. Offering print runs starting at $69 for 100, Sticker Mule aspires to be every Rails developer’s favorite sticker printing service.
+</description> 
+    </sponsor> 
+    
+    <sponsor> 
+    	<name>O'Reilly</name> 
+	    <url>http://oreilly.com/</url> 
+	    <logo>http://windycitydb.org/assets/4bf7552adabe9d6b61000011/oreilly_large.png</logo> 
+	    <description>O’Reilly Media spreads the knowledge of innovators through its books, online services, magazine, and conferences. Since 1978, O&amp;rsquo;Reilly has been a chronicler and catalyst of leading-edge development, homing in on the technology trends that really matter and spurring their adoption by amplifying &amp;ldquo;faint signals&amp;rdquo; from the alpha geeks who are creating the future. An active participant in the technology community, the company has a long history of advocacy, meme-making, and evangelism. Visit www.oreilly.com for details.</description> 
+    </sponsor> 
+    
+    <sponsor> 
+    <name>Pragmatic Screencasts</name> 
+    <url>http://pragmatic.tv/</url> 
+    <logo>http://windycitydb.org/assets/4bf75531dabe9d6b61000015/pragmatic_large.png</logo> 
+    <description>The Pragmatic Programmers is an agile publishing and training company. We're here because we want to improve the lives of developers. We do this by creating timely, practical books and working with The Pragmatic Studio to create the best developer training there is. The stuff we produce is timely and relevant because it's created by programmers for programmers. We have launched a new series of screencasts on various topics including Ruby, Rails, and Erlang. You can download and watch $5 episodes when and where it's convenient for you, in DRM-free formats. Check out some of our new screencasts at http://pragmatic.tv.
+</description> 
+    </sponsor> 
+  </level> 
+</sponsors>

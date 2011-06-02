@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+      package="org.windycitydb"
+      android:versionCode="1"
+      android:versionName="1.0">
+    <uses-sdk android:minSdkVersion="4" />
+
+    <uses-permission android:name="android.permission.INTERNET" />
+	<uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <application android:icon="@drawable/wcdb_icon"
+    			 android:label="@string/app_name" 
+    			 android:name="WindyCityDbApplication"
+				 android:allowClearUserData="true" 
+				 android:theme="@android:style/Theme.NoTitleBar">
+	 	<uses-library android:name="com.google.android.maps" />
+		<permission android:name="android.permission.INTERNET" />
+    	
+        <activity android:name=".MainActivity"
+                  android:label="@string/app_name"
+                  android:theme="@style/MyTheme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>    
+        <activity android:name=".SessionList">
+        	<intent-filter>
+        		<category android:name="android.intent.category.DEFAULT" />
+        		<action android:name="org.windycitydb.VIEW_SESSION_LIST" />
+        	</intent-filter>
+        </activity>
+        <activity android:name=".SessionDetail">
+        	<intent-filter>
+        		<category android:name="android.intent.category.DEFAULT" />
+        		<action android:name="org.windycitydb.VIEW_SESSION_DETAIL" />
+        	</intent-filter>
+        </activity>
+        <activity android:name=".GoogleMap" />
+        <activity android:name=".Floorplan" />
+        <activity android:name=".MapTab" />
+        <activity android:name=".About">
+        	<intent-filter>
+        		<category android:name="android.intent.category.DEFAULT" />
+        		<action android:name="org.windycitydb.VIEW_ABOUT_DETAIL" />
+        	</intent-filter>
+        </activity>
+        <activity android:name=".SponsorsList">
+        	<intent-filter>
+        		<category android:name="android.intent.category.DEFAULT" />
+        		<action android:name="org.windycitydb.VIEW_SPONSOR_LIST" />
+        	</intent-filter>
+        </activity>
+        <activity android:name=".SponsorDetail">
+        	<intent-filter>
+        		<category android:name="android.intent.category.DEFAULT" />
+        		<action android:name="org.windycitydb.VIEW_SPONSOR_DETAIL" />
+        	</intent-filter>
+        </activity>
+        <activity android:name="LocationDetail">
+        	<intent-filter>
+        		<category android:name="android.intent.category.DEFAULT" />
+        		<action android:name="org.windycitydb.VIEW_LOCATION_DETAIL" />
+        	</intent-filter>
+        </activity>
+        <service android:name="service.ConferenceDataService"></service>
+    </application>
+</manifest>
