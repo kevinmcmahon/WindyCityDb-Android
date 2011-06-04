@@ -1,22 +1,22 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WindyCityGo</string>
+    <string name="app_name">WindyCityDb</string>
     <string name="session_header_text">Session Description</string>
     <string name="bio_header_text">About the Speaker</string>
     <string name="sponsor_url_button">View Web Site</string>
     <string name="directions_button">Get Directions</string>
     <string name="session_website_button_text">Web Site</string>
     <string name="session_twitter_button_text">Twitter</string>
-    <string name="official_website_url">http://www.windycitygo.org/</string>
+    <string name="official_website_url">http://windycitydb.org/</string>
     <string name="about_cr_button_text">ChicagoRuby.org</string>
     <string name="about_wg_button_text">WisdomGroup.com</string>
     <string name="about_dev_header_text">Android App Development</string>
-    <string name="about_wcgteam_header_text">WindyCityGo Development Team</string>
+    <string name="about_wcgteam_header_text">WindyCityDb Development Team</string>
     <string name="about_supported_header_text">Supported By</string>
     <string name="about_app_dev_text">Kevin McMahon\n@klmcmahon\nandroid@methodsix.com</string>
     
     <!-- URLs for the xml data -->
-    <string name="session_data_url">http://windycitygo.org/sessions.xml</string>
-    <string name="location_data_url">http://windycitygo.org/locations.xml</string>
-    <string name="sponsors_data_url">http://windycitygo.org/sponsors.xml</string>
+    <string name="session_data_url">http://windycitydb.org/sessions.xml</string>
+    <string name="location_data_url">http://windycitydb.org/locations.xml</string>
+    <string name="sponsors_data_url">http://windycitydb.org/sponsors.xml</string>
 </resources>

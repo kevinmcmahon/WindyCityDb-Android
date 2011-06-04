@@ -14,7 +14,7 @@ public class Constants {
     
     public static final String INTENT_ACTION_VIEW_ABOUT = "org.windycitydb.VIEW_ABOUT_DETAIL";
     
-    public static final String LOGTAG = "WindyCityGo";
+    public static final String LOGTAG = "WindyCityDb";
 
     // Extras 
     public static final String STARTFROM_EXTRA = "org.windycitydb.StartFrom";

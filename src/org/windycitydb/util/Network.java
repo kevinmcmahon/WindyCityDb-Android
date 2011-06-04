@@ -42,6 +42,7 @@ public class Network {
           try {
         	  HttpURLConnection conn= (HttpURLConnection)myFileUrl.openConnection();
         	  conn.setDoInput(true);
+
         	  conn.connect();
         	  
         	  InputStream is = conn.getInputStream();
