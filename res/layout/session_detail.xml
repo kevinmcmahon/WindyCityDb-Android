@@ -6,7 +6,8 @@
     	android:layout_height="?android:attr/listPreferredItemHeight"    
     	android:orientation="vertical" android:gravity="center_horizontal" >
 	  <TextView android:id="@+id/title" 
-	  			android:layout_width="fill_parent" android:layout_height="wrap_content"
+	  			android:layout_width="fill_parent" 
+	  			android:layout_height="wrap_content"
 	  			android:padding="10dp" 
 	  			style="@style/detail_title" />
 	  <TextView android:id="@+id/presenter" 
@@ -15,11 +16,11 @@
 	   			style="@style/detail_presenter"/>
 	  <TextView android:id="@+id/desc_header"
 	  			android:text="@string/session_header_text"
-	  			android:textSize="18dp"
 	  			android:padding="10dp"
-	  			android:layout_width="fill_parent" android:layout_height="wrap_content"
+	  			android:layout_width="fill_parent" 
+	  			android:layout_height="wrap_content"
 	  			android:layout_below="@+id/presenter"
-	  			style="?android:attr/listSeparatorTextViewStyle"/>
+	  			style="@style/wcListSeparator"/>
 	  <TextView android:id="@+id/description" 
 	  			android:layout_width="fill_parent" android:layout_height="wrap_content"
 	 			android:padding="10dp" android:layout_below="@+id/desc_header"
@@ -29,7 +30,7 @@
 		android:layout_width="fill_parent"	
 		android:layout_height="wrap_content"	
 		android:padding="10px"
-		style="?android:attr/listSeparatorTextViewStyle" 
+		style="@style/wcListSeparator" 
 		android:text="@string/bio_header_text"
 		android:textSize="18dp"
 		android:layout_below="@+id/description"

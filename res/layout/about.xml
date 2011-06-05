@@ -10,7 +10,7 @@
 	  			android:textSize="18sp"
 	  			android:padding="10dp"
 	  			android:layout_width="fill_parent" android:layout_height="wrap_content"
-	  			style="?android:attr/listSeparatorTextViewStyle"/>
+	  			style="@style/wcListSeparator"/>
 	  <TextView android:id="@+id/about_dev" 
 	  			android:layout_width="fill_parent" android:layout_height="wrap_content"
 	 			android:padding="10dp"
@@ -25,7 +25,7 @@
 	  			android:layout_width="fill_parent" 
 	  			android:layout_height="wrap_content"
 	  			android:layout_below="@+id/about_dev"
-	  			style="?android:attr/listSeparatorTextViewStyle"/>
+	  			style="@style/wcListSeparator"/>
 	  <TextView android:id="@+id/about_wcgteam" 
 	  			android:layout_width="fill_parent" android:layout_height="wrap_content"
 	 			android:padding="10dp"
@@ -40,15 +40,13 @@
 	  			android:layout_width="fill_parent" 
 	  			android:layout_height="wrap_content"
 	  			android:layout_below="@+id/about_wcgteam"
-	  			style="?android:attr/listSeparatorTextViewStyle"/>
-	 
-  	      <ImageView
-			        android:id="@+id/cr_image"
-			        android:layout_width="fill_parent"
-			        android:layout_height="wrap_content"
-			        android:padding="10dp"
-			        android:layout_below="@+id/about_supported_header" />
-	
+	  			style="@style/wcListSeparator"/>
+	<ImageView
+			  android:id="@+id/cr_image"
+			  android:layout_width="fill_parent"
+			  android:layout_height="wrap_content"
+			  android:padding="10dp"
+			  android:layout_below="@+id/about_supported_header" />
 	<Button
 		android:id="@+id/about_cr_button" 
 		android:layout_width="fill_parent"
@@ -62,8 +60,7 @@
 	        android:layout_width="fill_parent"
 	        android:layout_height="wrap_content"
 	        android:layout_below="@+id/about_cr_button"
-	        android:padding="10dp" />
-	
+	        android:padding="10dp" />	
 	<Button
 		android:id="@+id/about_wg_button" 
 		android:layout_width="fill_parent"

@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <string name="app_name">WindyCityDb</string>
+    <string name="app_name">WindyCityDB</string>
     <string name="session_header_text">Session Description</string>
     <string name="bio_header_text">About the Speaker</string>
     <string name="sponsor_url_button">View Web Site</string>
@@ -11,7 +11,7 @@
     <string name="about_cr_button_text">ChicagoRuby.org</string>
     <string name="about_wg_button_text">WisdomGroup.com</string>
     <string name="about_dev_header_text">Android App Development</string>
-    <string name="about_wcgteam_header_text">WindyCityDb Development Team</string>
+    <string name="about_wcgteam_header_text">WindyCityDB Development Team</string>
     <string name="about_supported_header_text">Supported By</string>
     <string name="about_app_dev_text">Kevin McMahon\n@klmcmahon\nandroid@methodsix.com</string>
     

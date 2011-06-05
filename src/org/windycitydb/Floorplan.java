@@ -14,14 +14,16 @@ public class Floorplan extends Activity {
 	@Override
     public void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        Log.v(Constants.LOGTAG,Floorplan.CLASSTAG + " onCreate");
+        Log.v(Constants.LOGTAG, Floorplan.CLASSTAG + " onCreate");
         
         setContentView(R.layout.floorplan);
         
         ImageView imageView = (ImageView) findViewById(R.id.floorplan_image);
         String url = getIntent().getStringExtra(Constants.FLOOR_PLAN_URL_EXTRA);
-        Bitmap bitmap = Network.downloadBitmap(url);
         
-        imageView.setImageBitmap(bitmap);
+        if(url != null && url != "") {
+	        Bitmap bitmap = Network.downloadBitmap(url);
+	        imageView.setImageBitmap(bitmap);
+        }
 	}
 }

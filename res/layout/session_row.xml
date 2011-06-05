@@ -10,7 +10,7 @@
 		android:layout_width="fill_parent"	
 		android:layout_weight="1"
 		android:layout_height="wrap_content"
-		style="?android:attr/listSeparatorTextViewStyle" />
+		style="@style/wcListSeparator" />
 	<RelativeLayout
 		android:orientation="vertical"
 		android:layout_width="fill_parent"

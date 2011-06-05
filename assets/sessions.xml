@@ -1,0 +1,175 @@
+<?xml version="1.0" ?>
+
+<sessions version="1">
+  
+  <category name="Regular Sessions">
+          
+    <session>
+      <title>The Pathology of Graph Databases</title>
+      <speaker>
+        <name>Marko A. Rodriguez</name>
+        <company></company>
+        <bio>Dr. Marko A. Rodriguez has worked in the academic and commercial sectors as an expert in both the theoretical and applied aspects of graphs. As a Director's Fellow at the Los Alamos National Laboratory, Dr. Rodriguez developed an algebra for traversing graphs that has served as the foundation for the Gremlin graph traversal language. Commercially, Dr. Rodriguez has applied graphs to problems at AT&amp;T as a Graph Systems Architect and currently in his own private, graph-based consulting firm, Aurelius LLC.
+</bio>
+        <headshot>http://windycitydb.org/assets/4bcca684dabe9d1efc000038/rodriguez.jpg</headshot>
+        
+      </speaker>
+      <description>There is nothing more fascinating and utterly mind-bending than traversing a graph. Those who succumb to this data processing pattern euphorically suffer from graph pathology. It is no coincidence that the study of graph traversals is known, in academic circles, as Pathology. This lecture will shed light on recent Pathological advances -- methods and results.
+</description>
+      <start_time>9:00am</start_time>
+      <end_time>9:45am</end_time>
+      <links>
+            <speaker_website>https://twitter.com/twarko</speaker_website>
+            <speaker_twitter></speaker_twitter>
+            <slides_url></slides_url>
+            <rate_url></rate_url>
+            <video_url></video_url>
+      </links>
+    </session>
+    
+    <session>
+      <title>Real World CouchDB</title>
+      <speaker>
+        <name>John Wood</name>
+        <company>Signal</company>
+        <bio>John Wood loves solving problems with technology. A big believer in using the right tool for the job, John lives for solving complicated problems in a simple and elegant fashion. He is currently a software engineer at Signal, where he spends the majority of his time hacking on a Rails application that allows its customers to run marketing campaigns via SMS, email, Facebook, Twitter, and more. He lives in the southwest suburbs of Chicago with his wife and two children, and is always up for a hot cup of coffee or a cold pint of beer.
+</bio>
+        <headshot>http://windycitydb.org/assets/4de51930dabe9d4390003fa9/wood.jpg</headshot>
+        
+      </speaker>
+      <description>CouchDB has several features that help it stand out from the other databases in this rapidly growing field. Incremental map/reduce, peer to peer replication, mobile device synchronization, a realtime update feed, and the ability to host an application in the database itself (also known as a Couchapp) are just a few. See how companies such as the BBC, Radical Dynamic, Signal, and Incandescent Software are using CouchDB to solve their real world challenges.
+</description>
+      <start_time>10:00am</start_time>
+      <end_time>10:45am</end_time>
+      <links>
+            <speaker_website>http://johnpwood.net/</speaker_website>
+            <speaker_twitter>http://twitter.com/johnpwood</speaker_twitter>
+            <slides_url></slides_url>
+            <rate_url></rate_url>
+            <video_url></video_url>
+      </links>
+    </session>
+    
+    <session>
+      <title>Link Walking with Riak</title>
+      <speaker>
+        <name>Susan Potter</name>
+        <company>Finsignia</company>
+        <bio>Primarily in the financial markets industry, Susan has been designing and building large production-deployed distributed software services and applications since 1996. Over the last 6 years she has worked extensively with Erlang/OTP, Ruby, Javascript, Python and dabbled in Haskell and Clojure. Prior to Susan's enlightenment she used and abused Java/J2EE/JEE, C++, Perl.
+</bio>
+        <headshot>http://windycitydb.org/assets/4dcd3ce0dabe9d1359000021/twitter.jpg</headshot>
+        
+      </speaker>
+      <description>Riak implements many Dynamo-esque properties such as consistent hashing, gossip protocol, vector clocks, hinted handoff, read repair. This is great from an operations perspective, but what about us application developers?
+
+One feature that Riak gifts us developers is its ability to specify links between data objects as metadata. This talk will show how to use link walking and map/reduce phases to solve common NoSQL modeling and querying shortcomings.
+</description>
+      <start_time>11:00am</start_time>
+      <end_time>11:45am</end_time>
+      <links>
+            <speaker_website>http://susanpotter.net</speaker_website>
+            <speaker_twitter>http://twitter.com/SusanPotter</speaker_twitter>
+            <slides_url></slides_url>
+            <rate_url></rate_url>
+            <video_url></video_url>
+      </links>
+    </session>
+    
+    <session>
+      <title>Lightning Talks</title>
+      <speaker>
+        <name>Various Speakers</name>
+        <company></company>
+        <bio>N/A
+</bio>
+        <headshot>http://windycitydb.org/assets/4c183712dabe9d0397000002/lightning.jpg</headshot>
+        
+      </speaker>
+      <description>TBA
+</description>
+      <start_time>1:15pm</start_time>
+      <end_time>2:00pm</end_time>
+      <links>
+            <speaker_website></speaker_website>
+            <speaker_twitter></speaker_twitter>
+            <slides_url></slides_url>
+            <rate_url></rate_url>
+            <video_url></video_url>
+      </links>
+    </session>
+    
+    <session>
+      <title>The Beauty of Simplicity: Mastering Database Design Using Redis</title>
+      <speaker>
+        <name>Ryan Briones</name>
+        <company>Obtiva</company>
+        <bio>Ryan is a practicing software craftsman currently living and working in Chicago, IL. In nearly a decade Ryan has designed systems for ISPs, non-profit corporations and web startups. For the last 4 years Ryan has had the pleasure of using Ruby almost exclusively and gives back to the Ruby ecosystem whenever possible. Ryan works as a Consultant at Obtiva, a life-long learner and is on his way to becoming a full-blown coffee snob.
+</bio>
+        <headshot>http://windycitydb.org/assets/4dcd3d33dabe9d7dcd000296/ryanbriones.jpg</headshot>
+        
+      </speaker>
+      <description>To many on the outside, Redis looks like your average key-value store. To those in the know, Redis is a powerful data structure store that's capable of doing much of what a full-featured database can handle.
+
+In this talk, Ryan will give a quick overview of Redis' API and the datatypes it allows you to store and query. He'll then take you through the process of designing a complex schema with Redis and demonstrate how using simple data structures can help you in making better decisions for your applications.
+</description>
+      <start_time>2:15pm</start_time>
+      <end_time>3:00pm</end_time>
+      <links>
+            <speaker_website>http://ryanbriones.com/</speaker_website>
+            <speaker_twitter>http://twitter.com/ryanbriones</speaker_twitter>
+            <slides_url></slides_url>
+            <rate_url></rate_url>
+            <video_url></video_url>
+      </links>
+    </session>
+    
+    <session>
+      <title>MongoDB and the Democratic Party – A Case Study</title>
+      <speaker>
+        <name>Pramod Sadalage</name>
+        <company>ThoughtWorks</company>
+        <bio>Pramod Sadalage is the author of Recipes for Continuous Database Integration: Evolutionary Database Development, is a co-author of Refactoring Databases: Evolutionary Database Design, founder of the Agile Databases yahoo group, and works for Thoughtworks helping clients develop databases in an evolutionary and agile environment.
+</bio>
+        <headshot>http://windycitydb.org/assets/4dcd3d84dabe9d1359000054/20101116img_0292.jpg</headshot>
+        
+      </speaker>
+      <description>Pramod will take a look at the lessons learned from his experience of using MongoDB in a high volume, high transactions scenario. Pramod will share how his team at ThoughtWorks loaded large volumes of data, kept the data up to date, and how they experimented with different configurations before arriving at the optimal MongoDB setup.
+</description>
+      <start_time>3:15pm</start_time>
+      <end_time>4:00pm</end_time>
+      <links>
+            <speaker_website>http://www.sadalage.com</speaker_website>
+            <speaker_twitter>http://twitter.com/pramodsadalage</speaker_twitter>
+            <slides_url></slides_url>
+            <rate_url></rate_url>
+            <video_url></video_url>
+      </links>
+    </session>
+    
+    <session>
+      <title>User Generated Content and the Social Graph</title>
+      <speaker>
+        <name>Chris Chandler</name>
+        <company>Flatterline</company>
+        <bio>Before co-founding Flatterline, Chris dabbled in cross-layer wireless network routing algorithms as a PhD student at Arizona State University and co-authored several papers during his time there. His development experience includes several widely-integrated and PCI-compliant e-commerce platforms, a handful of data protection/encryption suites, and a significant amount of work for one of the world’s largest public-facing certificate authorities. 
+</bio>
+        <headshot>http://windycitydb.org/assets/4dcd405adabe9d0b810000c1/img_0260.jpeg</headshot>
+        
+      </speaker>
+      <description>So you've decided to be "social." Your awesome new fledgling app will be a new haven for user-generated content, social engagement, and other buzzwords. Unfortunately, the app will need to handle content and graph operations with unbounded size and erratic access patterns. Will users share text? Photos? Music? Video?! 
+
+This presentation will cover a hypothetical architecture for a growing site with emphasis on real-world scenarios.  Twitter's FlockDB + Gizzard will handle the massively distributed social graph. Other NoSQL engines (MongoDB, memcache, Redis, maybe even Hadoop) will handle content. Bring your questions and concerns!
+</description>
+      <start_time>4:15pm</start_time>
+      <end_time>5:00pm</end_time>
+      <links>
+            <speaker_website>http://chrischandler.name/</speaker_website>
+            <speaker_twitter>https://twitter.com/squanderingtime</speaker_twitter>
+            <slides_url></slides_url>
+            <rate_url></rate_url>
+            <video_url></video_url>
+      </links>
+    </session>
+    
+  </category>
+</sessions>

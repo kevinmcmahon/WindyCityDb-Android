@@ -3,6 +3,7 @@
     <style name="detail_title">
         <item name="android:textSize">24sp</item>
         <item name="android:textStyle">bold</item>
+        <item name="android:textColor">@color/wc_white</item>
     </style>
     <style name="detail_presenter">
         <item name="android:textSize">21sp</item>
@@ -36,4 +37,19 @@
     	<!-- set textColor to red, so you can verify that it applied. -->
 	    <item name="android:textColor">@drawable/tab_main_selector</item>
 	</style>
+	<style name="wcListSeparator" parent="@android:attr/listSeparatorTextViewStyle">
+	    <item name="android:layout_height">wrap_content</item>
+	    <item name="android:layout_width">fill_parent</item>
+	    <item name="android:paddingTop">2dip</item>
+	    <item name="android:paddingBottom">3dip</item>
+	    <item name="android:paddingLeft">5dip</item>
+	    <item name="android:background">@color/wc_green</item>
+	    <item name="android:textAppearance">@android:style/TextAppearance.Small</item>
+	    <item name="android:shadowColor">#111111</item>
+	    <item name="android:shadowRadius">1</item>
+	    <item name="android:shadowDy">1</item>
+	    <item name="android:textStyle">bold</item>
+	    <item name="android:textSize">18dp</item>
+	    <item name="android:textColor">@color/wc_white</item>
+  </style>
 </resources>

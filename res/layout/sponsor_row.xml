@@ -13,6 +13,7 @@
 		android:layout_centerVertical="true"
 		android:textSize="24sp"
 		android:padding="6sp"
+		android:textColor="@color/wc_white"
 	/>
 	<ImageView
 	android:layout_height="fill_parent" 

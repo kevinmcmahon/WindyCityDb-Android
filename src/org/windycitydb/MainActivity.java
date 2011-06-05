@@ -9,19 +9,25 @@ import org.windycitydb.SponsorsList;
 
 import android.app.Activity;
 import android.app.TabActivity;
+import android.content.Context;
 import android.content.Intent;
 import android.content.res.Resources;
 import android.net.Uri;
 import android.os.Bundle;
 import android.util.Log;
+import android.view.LayoutInflater;
 import android.view.Menu;
 import android.view.MenuItem;
+import android.view.View;
 import android.widget.TabHost;
+import android.widget.TextView;
+import android.widget.TabHost.TabSpec;
 
 public class MainActivity extends TabActivity {
 	
 	private static final String CLASSTAG = MainActivity.class.getSimpleName();
-	 
+	private TabHost tabHost = null;
+	
     /** Called when the activity is first created. */
     @Override
     public void onCreate(Bundle savedInstanceState) {
@@ -29,9 +35,13 @@ public class MainActivity extends TabActivity {
         Log.v(Constants.LOGTAG, MainActivity.CLASSTAG + " onCreate");
         
         setContentView(R.layout.main);
-
+    
+        buildTabs();
+    }
+    
+    private void buildTabs() {
         Resources res = getResources();
-        TabHost tabHost = getTabHost();
+        tabHost = getTabHost();
         TabHost.TabSpec spec;
         Intent intent;
 
@@ -55,6 +65,24 @@ public class MainActivity extends TabActivity {
         tabHost.addTab(spec);
 
         tabHost.setCurrentTab(0);
+    }
+    
+    private void setupTab(final String tag, Intent intent) {
+    	Log.v(Constants.LOGTAG, MainActivity.CLASSTAG + " setupTab : " + tag);
+    	View tabview = createTabView(tabHost.getContext(), tag);
+    	
+        TabSpec setContent = tabHost.newTabSpec(tag)
+        							.setIndicator(tabview)
+        							.setContent(intent);
+    	tabHost.addTab(setContent);
+    }
+
+    private static View createTabView(final Context context, final String text) {
+    	Log.v(Constants.LOGTAG, MainActivity.CLASSTAG + " createTabView with text : " + text);
+    	View view = LayoutInflater.from(context).inflate(R.layout.tabs_bg, null);
+    	TextView tv = (TextView) view.findViewById(R.id.tabsText);
+    	tv.setText(text);
+    	return view;
     }
     
     @Override
