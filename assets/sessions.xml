@@ -1,4 +1,4 @@
-<?xml version="1.0" ?>
+<?xml version="1.0"?>
 
 <sessions version="1">
   
@@ -9,12 +9,12 @@
       <speaker>
         <name>Marko A. Rodriguez</name>
         <company></company>
-        <bio>Dr. Marko A. Rodriguez has worked in the academic and commercial sectors as an expert in both the theoretical and applied aspects of graphs. As a Director's Fellow at the Los Alamos National Laboratory, Dr. Rodriguez developed an algebra for traversing graphs that has served as the foundation for the Gremlin graph traversal language. Commercially, Dr. Rodriguez has applied graphs to problems at AT&amp;T as a Graph Systems Architect and currently in his own private, graph-based consulting firm, Aurelius LLC.
+        <bio>Dr. Marko A. Rodriguez has worked in the academic and commercial sectors as an expert in both the theoretical and applied aspects of graphs. As a Director&amp;rsquo;s Fellow at the Los Alamos National Laboratory, Dr. Rodriguez developed an algebra for traversing graphs that has served as the foundation for the Gremlin graph traversal language. Commercially, Dr. Rodriguez has applied graphs to problems at AT&amp;amp;T as a Graph Systems Architect and currently in his own private, graph-based consulting firm, Aurelius LLC.
 </bio>
         <headshot>http://windycitydb.org/assets/4bcca684dabe9d1efc000038/rodriguez.jpg</headshot>
         
       </speaker>
-      <description>There is nothing more fascinating and utterly mind-bending than traversing a graph. Those who succumb to this data processing pattern euphorically suffer from graph pathology. It is no coincidence that the study of graph traversals is known, in academic circles, as Pathology. This lecture will shed light on recent Pathological advances -- methods and results.
+      <description>There is nothing more fascinating and utterly mind-bending than traversing a graph. Those who succumb to this data processing pattern euphorically suffer from graph pathology. It is no coincidence that the study of graph traversals is known, in academic circles, as Pathology. This lecture will shed light on recent Pathological advances &amp;ndash; methods and results.
 </description>
       <start_time>9:00am</start_time>
       <end_time>9:45am</end_time>
@@ -55,7 +55,7 @@
       <speaker>
         <name>Susan Potter</name>
         <company>Finsignia</company>
-        <bio>Primarily in the financial markets industry, Susan has been designing and building large production-deployed distributed software services and applications since 1996. Over the last 6 years she has worked extensively with Erlang/OTP, Ruby, Javascript, Python and dabbled in Haskell and Clojure. Prior to Susan's enlightenment she used and abused Java/J2EE/JEE, C++, Perl.
+        <bio>Primarily in the financial markets industry, Susan has been designing and building large production-deployed distributed software services and applications since 1996. Over the last 6 years she has worked extensively with Erlang/OTP, Ruby, Javascript, Python and dabbled in Haskell and Clojure. Prior to Susan&amp;rsquo;s enlightenment she used and abused Java/J2EE/JEE, C++, Perl.
 </bio>
         <headshot>http://windycitydb.org/assets/4dcd3ce0dabe9d1359000021/twitter.jpg</headshot>
         
@@ -108,9 +108,9 @@ One feature that Riak gifts us developers is its ability to specify links betwee
         <headshot>http://windycitydb.org/assets/4dcd3d33dabe9d7dcd000296/ryanbriones.jpg</headshot>
         
       </speaker>
-      <description>To many on the outside, Redis looks like your average key-value store. To those in the know, Redis is a powerful data structure store that's capable of doing much of what a full-featured database can handle.
+      <description>To many on the outside, Redis looks like your average key-value store. To those in the know, Redis is a powerful data structure store that&amp;rsquo;s capable of doing much of what a full-featured database can handle.
 
-In this talk, Ryan will give a quick overview of Redis' API and the datatypes it allows you to store and query. He'll then take you through the process of designing a complex schema with Redis and demonstrate how using simple data structures can help you in making better decisions for your applications.
+In this talk, Ryan will give a quick overview of Redis&amp;rsquo; API and the datatypes it allows you to store and query. He&amp;rsquo;ll then take you through the process of designing a complex schema with Redis and demonstrate how using simple data structures can help you in making better decisions for your applications.
 </description>
       <start_time>2:15pm</start_time>
       <end_time>3:00pm</end_time>
@@ -156,9 +156,9 @@ In this talk, Ryan will give a quick overview of Redis' API and the datatypes it
         <headshot>http://windycitydb.org/assets/4dcd405adabe9d0b810000c1/img_0260.jpeg</headshot>
         
       </speaker>
-      <description>So you've decided to be "social." Your awesome new fledgling app will be a new haven for user-generated content, social engagement, and other buzzwords. Unfortunately, the app will need to handle content and graph operations with unbounded size and erratic access patterns. Will users share text? Photos? Music? Video?! 
+      <description>So you&amp;rsquo;ve decided to be &amp;ldquo;social.&amp;rdquo; Your awesome new fledgling app will be a new haven for user-generated content, social engagement, and other buzzwords. Unfortunately, the app will need to handle content and graph operations with unbounded size and erratic access patterns. Will users share text? Photos? Music? Video?! 
 
-This presentation will cover a hypothetical architecture for a growing site with emphasis on real-world scenarios.  Twitter's FlockDB + Gizzard will handle the massively distributed social graph. Other NoSQL engines (MongoDB, memcache, Redis, maybe even Hadoop) will handle content. Bring your questions and concerns!
+This presentation will cover a hypothetical architecture for a growing site with emphasis on real-world scenarios.  Twitter&amp;rsquo;s FlockDB + Gizzard will handle the massively distributed social graph. Other NoSQL engines (MongoDB, memcache, Redis, maybe even Hadoop) will handle content. Bring your questions and concerns!
 </description>
       <start_time>4:15pm</start_time>
       <end_time>5:00pm</end_time>

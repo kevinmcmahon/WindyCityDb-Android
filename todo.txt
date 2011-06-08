@@ -1,0 +1,11 @@
+1) make sure floorplan image is going to be included in the
+locations.xml
+
+2) implement an alternate view for the floorplan since it isn't there
+yet.
+
+3) possibly reformat the location detail page to add a green bar for the
+location title.
+
+4) dynamic file updating.
+
