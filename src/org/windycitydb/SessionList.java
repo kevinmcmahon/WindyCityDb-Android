@@ -1,7 +1,10 @@
 package org.windycitydb;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
+import java.io.UTFDataFormatException;
 import java.util.ArrayList;
 
 import javax.crypto.spec.PSource;
@@ -38,13 +41,21 @@ public class SessionList extends ListActivity {
         InputStream stream = null;
         ArrayList<SessionCategory> sessionCategories = null;
         adapter = new MergeAdapter();
-        
+        String filename = getResources().getString(R.string.data_filename_sessions);
         try {
-            stream = assetManager.open("sessions.xml");
-            sessionCategories = new XmlParser().parseSessionResponse(stream);
+        	File cachedFile = new File(getCacheDir(), filename);
+    		
+    		if(cachedFile.exists()) {
+    			Log.i(Constants.LOGTAG,"Reading sessions data from cached copy.");
+    			stream = new FileInputStream(cachedFile);
+    		} else {
+    			Log.i(Constants.LOGTAG,"Reading sessions data from assets.");
+    	        stream =  assetManager.open(filename);
+    		}
+        	
+        	sessionCategories = new XmlParser().parseSessionResponse(stream);
             sessions = sessionCategories.get(0).sessions;
         } catch (IOException e) {
-
             // handle
         	Log.e("SessionsActivity",e.getMessage());
         }

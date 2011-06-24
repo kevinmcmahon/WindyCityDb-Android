@@ -6,6 +6,7 @@ import org.windycitydb.MapTab;
 import org.windycitydb.R;
 import org.windycitydb.SessionList;
 import org.windycitydb.SponsorsList;
+import org.windycitydb.service.ConferenceDataService;
 
 import android.app.Activity;
 import android.app.TabActivity;
@@ -35,8 +36,10 @@ public class MainActivity extends TabActivity {
         Log.v(Constants.LOGTAG, MainActivity.CLASSTAG + " onCreate");
         
         setContentView(R.layout.main);
-    
         buildTabs();
+        
+        Intent intent = new Intent().setClass(this, ConferenceDataService.class);
+		startService(intent);
     }
     
     private void buildTabs() {

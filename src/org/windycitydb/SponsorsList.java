@@ -1,5 +1,7 @@
 package org.windycitydb;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -34,9 +36,18 @@ public class SponsorsList extends ListActivity {
 	        
 	        AssetManager assetManager = getAssets();
 	        InputStream stream = null;
-	
+	        String filename = getResources().getString(R.string.data_filename_sponsors);
 	        try {
-	            stream = assetManager.open("sponsors.xml");
+	        	File cachedFile = new File(getCacheDir(), "/"+ filename);
+	    		
+	    		if(cachedFile.exists()) {
+	    			Log.i(Constants.LOGTAG,"Reading sponsors data from cached copy.");
+	    			stream = new FileInputStream(cachedFile);
+	    		} else {
+	    			Log.i(Constants.LOGTAG,"Reading sponsors data from assets.");
+	    			stream = assetManager.open(filename);
+	    		}
+	            
 	            sponsorLevels = new XmlParser().parseSponsorResponse(stream);
 	        } catch (IOException e) {
         		Log.e(Constants.LOGTAG, e.getMessage());

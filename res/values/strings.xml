@@ -16,7 +16,9 @@
     <string name="about_app_dev_text">Kevin McMahon\n@klmcmahon\nandroid@methodsix.com</string>
     
     <!-- URLs for the xml data -->
-    <string name="session_data_url">http://windycitydb.org/sessions.xml</string>
-    <string name="location_data_url">http://windycitydb.org/locations.xml</string>
-    <string name="sponsors_data_url">http://windycitydb.org/sponsors.xml</string>
+    <string name="data_protocol">http</string>
+    <string name="data_base_url">windycitydb.org</string>
+    <string name="data_filename_sessions">sessions.xml</string>
+    <string name="data_filename_locations">locations.xml</string>
+    <string name="data_filename_sponsors">sponsors.xml</string>
 </resources>

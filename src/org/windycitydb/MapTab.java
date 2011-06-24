@@ -1,5 +1,7 @@
 package org.windycitydb;
 
+import java.io.File;
+import java.io.FileInputStream;
 import java.io.IOException;
 import java.io.InputStream;
 import java.util.ArrayList;
@@ -52,10 +54,18 @@ public class MapTab extends TabActivity {
     private ArrayList<Location> getLocations() {
         Log.v(Constants.LOGTAG, MapTab.CLASSTAG + " getLocation");
         InputStream stream = null;
+        String filename = getResources().getString(R.string.data_filename_locations);
     	try {
-			stream = getAssets().open("locations.xml");
+    		File cachedFile = new File(getCacheDir(), filename);
+    		
+    		if(cachedFile.exists()) {
+    			Log.i(Constants.LOGTAG,"Reading locations data from cached copy.");
+    			stream = new FileInputStream(cachedFile);
+    		} else {
+    			Log.i(Constants.LOGTAG,"Reading locations data from assets.");
+    	        stream = getAssets().open(filename);
+    		}	
 		} catch (IOException e) {
-            // handle
         	android.util.Log.e(Constants.LOGTAG, MapTab.CLASSTAG + " " + e.getMessage(), e);
         }
     	return new XmlParser().parseLocationResponse(stream);

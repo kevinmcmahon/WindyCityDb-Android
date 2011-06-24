@@ -6,5 +6,6 @@
 	<classpathentry kind="lib" path="/Users/kevin/Projects/workspace/WindyCityDb/external/CWAC-MergeAdapter.jar"/>
 	<classpathentry kind="lib" path="/Users/kevin/Projects/workspace/WindyCityDb/external/CWAC-SackOfViewsAdapter.jar"/>
 	<classpathentry kind="lib" path="/Users/kevin/Projects/workspace/WindyCityDb/external/overlaymanager-1.0.1.jar"/>
+	<classpathentry kind="lib" path="/Users/kevin/Projects/workspace/WindyCityDb/external/commons-io-2.0.1.jar"/>
 	<classpathentry kind="output" path="bin"/>
 </classpath>
