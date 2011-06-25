@@ -14,7 +14,7 @@
     <string name="about_wcgteam_header_text">WindyCityDB Development Team</string>
     <string name="about_supported_header_text">Supported By</string>
     <string name="about_app_dev_text">Kevin McMahon\n@klmcmahon\nandroid@methodsix.com</string>
-    
+    <string name="floorplan_na">Floorplan Not Available</string>
     <!-- URLs for the xml data -->
     <string name="data_protocol">http</string>
     <string name="data_base_url">windycitydb.org</string>
