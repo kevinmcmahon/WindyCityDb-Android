@@ -14,10 +14,8 @@ import org.windycitydb.util.Network;
 
 import android.app.Service;
 import android.content.Intent;
-import android.content.res.Resources;
 import android.os.AsyncTask;
 import android.os.IBinder;
-import android.provider.SyncStateContract.Constants;
 import android.util.Log;
 
 public class ConferenceDataService extends android.app.Service {
@@ -50,7 +48,7 @@ public class ConferenceDataService extends android.app.Service {
 	            Log.e(org.windycitydb.Constants.LOGTAG, ConferenceDataService.CLASSTAG + " Bad URL", e);
 	        }
         } else {
-        	Log.i(org.windycitydb.Constants.LOGTAG,"Network not available so xml files not updated");
+        	Log.i(org.windycitydb.Constants.LOGTAG, "Network not available so xml files not updated");
         }
 
         return Service.START_FLAG_REDELIVERY;
